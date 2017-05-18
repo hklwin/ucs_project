@@ -1,0 +1,115 @@
+@font-face {
+	src: url(/fonts/OpenSans-Regular.ttf);
+	font-family: "OpenSans Regular";
+}
+
+@font-face {
+	src: url(/fonts/OpenSans-Bold.ttf);
+	font-family: "OpenSans Bold";
+}
+
+@font-face {
+	src: url(/fonts/NotoSansMyanmar-Bold.ttf);
+	font-family: "NotoSansMyanmar Bold";
+}
+
+@font-face {
+	src: url(/fonts/NotoSansMyanmar-Regular.ttf);
+	font-family: "NotoSansMyanmar Regular";
+}
+
+@font-face {
+	src: url(/fonts/NotoSansMyanmar-Bold.ttf);
+	font-family: "NotoSansMyanmar Bold";
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	width: 100%;
+	height: 100%;
+	font: 13px "NotoSansMyanmar Regular", "OpenSans Regular";
+	background: url("/img/brickwall.png");
+}
+
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+
+.wrapper {
+	background-color: #fff;
+}
+
+.banner {
+	border-bottom: solid 1px #ccc;
+	height: 60px;
+	padding: 15px 0;
+}
+
+.banner .title {
+	text-align: center;
+	font-size: 24px;
+}
+
+.side-col {
+	padding-right: 0;
+}
+
+.content-col {
+	padding-left: 0;
+}
+
+.side-nav {
+}
+
+.side-nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.side-nav > ul > li {
+	border-bottom: solid 1px #ccc;
+	padding-left: 15px;
+}
+
+.side-nav > ul > li a {
+	color: #333;
+}
+
+.content {
+	min-height: calc(100vh - 90px);
+	border-left: dotted 1px #ccc;
+}
+
+.footer {
+	height: 30px;
+	color: #fff;
+	background-color: #999;
+	text-align: center;
+}
+
+.users {
+	padding: 15px;
+}
+
+.users h2 {
+	font: 16px "NotoSansMyanmar Bold", "OpenSans Bold";;
+	margin-bottom: 15px;
+}
+
+.users h2 a {
+	color: #333;
+}
+
+.users .links {
+	margin-bottom: 15px;
+}
+
+.form-row {
+	margin-bottom: 15px;
+}

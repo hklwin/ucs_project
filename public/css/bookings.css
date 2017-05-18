@@ -1,0 +1,123 @@
+.bookings {
+
+}
+
+.bookings a {
+	color: #333;
+}
+
+.bookings a:hover, 
+.bookings a:focus,
+.bookings a:active {
+	text-decoration: none;
+}
+
+.booking {
+	border: solid 1px #ccc;
+	padding: 5px;
+	margin-bottom: 10px;
+	transition: all .3s ease-out;
+	position: relative;
+}
+
+.booking:hover,
+.booking:focus,
+.booking:active {
+	background-color: #fff;
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+	transition: all .3s ease-out;
+}
+
+.booking a.btn {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	padding: 3px 6px;
+	font-size: 12px;
+	color: #fff;
+	transition: all .3s ease-out;
+	height: 26px;
+}
+
+.booking a.btn:hover,
+.booking a.btn:focus,
+.booking a.btn:active {
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5),0 4px 15px 0 rgba(0,0,0,0.4);
+	transition: all .3s ease-out;
+}
+
+.booking .name {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: "Gotham-Book-Bold";
+}
+
+.booking .check-in {
+
+}
+
+.booking .status {
+}
+
+.booking .status span {
+	display: inline-block;
+	//padding: 3px 4px;
+	color: #fff;
+	width: auto;
+	font-size: 12px;
+	border-radius: 5px;
+	font-family: "Montserrat Bold";
+}
+
+.booking .status span.mm {
+	font-size: 14px;
+}
+
+.booking .status .normal {
+	//background-color: #888;
+	color: #888;
+}
+
+.booking .status .danger {
+	//background-color: #f00;
+	color: #f00;
+}
+
+.booking .status .success {
+	//background-color: #009e00;
+	color: #009e00;
+}
+
+.booking .info-row {
+	font-size: 12px;
+}
+
+.booking .info-row .mm {
+	font-size: 13px;
+}
+
+.booking .info-row:first-child {
+	margin-top: 10px;
+}
+
+.booking .info-row .name {
+	font-family: "Montserrat Bold";
+	font-size: 12px;
+}
+
+.booking .info-row .name.mm {
+	font-size: 13px;
+}
+
+.booking .info-row .value {
+	font-family: "Montserrat";
+}
+
+@media(max-width: 768px) {
+	.booking a.btn {
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+	}
+}
